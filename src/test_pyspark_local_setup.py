@@ -1,8 +1,16 @@
 import pyspark
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import lit, col
+
+
+
 spark = pyspark.sql.SparkSession.builder.appName("MyApp") \
             .config("spark.jars.packages", "com.microsoft.ml.spark:mmlspark_2.11:1.0.0-rc1") \
             .config("spark.jars.repositories", "https://mmlspark.azureedge.net/maven") \
             .getOrCreate()
+
+
+spark = SparkSession.builder.getOrCreate()
 
 
 print(f"**************************")
