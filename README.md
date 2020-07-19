@@ -41,11 +41,13 @@ At prompt run:
 ```
     databricks-connect configure
 ```
+
 Complete the questions - they are pretty straightforward. Once done you can run this command to test:
 
 ```
     databricks-connect test
 ```
+
 If you get any errors check the troubleshooting section. But hopefully you are good to go.
 
 [databricks-connect-development](https://datathirst.net/blog/2019/3/7/databricks-connect-finally)
