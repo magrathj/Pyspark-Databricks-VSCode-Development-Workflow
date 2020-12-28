@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyspark-pipelines
+Version: 0.0.1
+Summary: Sample PySpark Application for use with Databricks Connect
+Home-page: http://github.com/magrathj
+Author: Jared Magrath
+Author-email: magrathj@tcd.ie
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
