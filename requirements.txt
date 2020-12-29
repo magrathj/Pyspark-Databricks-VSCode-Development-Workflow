@@ -1,3 +1,6 @@
 pytest
 pylint==2.3.1
 wheel
+pyspark
+numpy
+pandas
