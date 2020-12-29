@@ -1,4 +1,7 @@
 # Pyspark-Databricks-VSCode-Development-Workflow
+
+![Python package](https://github.com/magrathj/Pyspark-Databricks-VSCode-Development-Workflow/workflows/Python%20package/badge.svg)
+
 Setting up a pyspark development workflow between VSCode and Databricks. So that, a developer can develop tests and run pyspark code locally, before deploying it to databricks. Allowing for developer to utilise test driven development in VSCode before migrating to notebooks in Databricks.  
 
 
