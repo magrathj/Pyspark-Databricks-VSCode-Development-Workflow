@@ -6,7 +6,7 @@ install:
 		pip install --user -r requirements.txt
 
 test:
-	python -m pytest 
+	python -m pytest --doctest-modules --junitxml=junit/test-results.xml 
 
 
 all: install test
