@@ -4,7 +4,14 @@
 
 This repo is setting up a pyspark development workflow between VSCode and Databricks to bridge the gap between testing pyspark packages before deploying them to databricks using databricks-connect or the databricks APIs. 
 
-Specifically, to solver a wider issue - when building out a pyspark application, a lot of the time can be spent building out code in isolation which we can package up. However, this typically means using databricks-connect and requires you to have a cluster available while you build out the application. In larger projects where you have a large team working on a workspace these costs can amount to quite a bit. Whereas, if you isolate your code and develop your package locally in VScode then you dont need to incur cluster costs to build out and test a small component. 
+Specifically, to solver a wider issue - when building out a pyspark application, a lot of the time can be spent building out code in isolation which we can package up. However, this typically means using databricks-connect and requires you to have a cluster available while you build out the application. In larger projects where you have a large team working on a databricks workspace these costs can amount to quite a bit. Whereas, if you isolate your code to individual components and packaged them up locally in VScode then you dont need to incur cluster costs to build out and test a small component. The later you can integrate those packages and get the benefit of distributed computing. 
+
+
+To give you an idea of the cost problem, if you had a team of five developers building out their application on one databricks development workspace with low spec cluster for circa 170 hours a month (40 hours per week x 52 weeks per year / 12 months per year = 173.33 average monthly hours) then you are looking at a pay as you go cost of over $10k a month. ![azure databricks cost calculator](https://azure.microsoft.com/en-gb/pricing/calculator/?service=databricks) 
+
+![cost_calculator](./images/cost_calculator.PNG)
+
+
 
 ***Packages*** -> unit tested locally or on remote servers using spark-mml package
 
