@@ -1,5 +1,7 @@
 # Pyspark-Databricks-VSCode-Development-Workflow
 
+## Introduction
+
 ![Python package](https://github.com/magrathj/Pyspark-Databricks-VSCode-Development-Workflow/workflows/Python%20package/badge.svg)
 
 This repo is setting up a pyspark development workflow between VSCode and Databricks to bridge the gap between testing pyspark packages before deploying them to databricks using databricks-connect or the databricks APIs. 
